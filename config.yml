@@ -1,0 +1,23 @@
+# The announcement book contents. Use \n for a new line
+book:
+  pages: 2
+  page1:
+    components: 3
+    component1:
+      text: 'Welcome to &3&lPlanetary&b&lPvP! &0This is going to be the announcements board for all new features on PlanetaryPvP. Use '
+    component2:
+      text: '/toggleannouncements'
+      clickevent:
+        action: RUN_COMMAND
+        string: '/toggleannouncements'
+      hoverevent:
+        action: SHOW_TEXT
+        string: 'Click to run /toggleannouncements'
+    component3:
+      text: ' to turn this off.'
+  page2:
+    components: 1
+    component1:
+      text: 'This week on &3&lPlanetary&b&lPvP&0, nothing much is happening as the server is still like 80 years away from release.'
+# The player's UUIDs who have toggled the announcements off. It is on by default
+toggled-off:

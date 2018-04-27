@@ -1,0 +1,8 @@
+main: com.voidcraftplays.planetarypvp.Main
+version: 1.0
+name: PlanetaryPvPStuff
+author: VoidCraftPlays
+description: Some extra features added to PlanetaryPvP
+commands:
+  toggleannouncements:
+    description: Toggle your announcements book on-join
